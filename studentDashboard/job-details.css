@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+ font-family: 'Poppins', sans-serif;
+ }
+
+ /* detail content */
+ .detail-container {
+ background-image:url("../images/job-detail-img.jpg");
+ background-repeat: no-repeat;
+ width: 100%;
+ height:60vh;
+ background-size: cover;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ }
+ .detail-container .content {
+   border: 1px solid black;
+   align-items: center;
+   margin:13rem 9rem;
+   width: 57%;    
+   background-color: whitesmoke;   
+   padding: 30px;  
+   box-shadow: 0 1px 12px rgba(0,0,0,0.25);
+   border:1px solid rgba(255, 255, 255, 0.3);
+  background-color:rgb(158, 215, 218);
+
+
+ }
+ .detail-container .content h1 {
+  font-size: 30px;
+  color: black;
+  letter-spacing: 1px;
+  padding-left: 19px;
+ }
+ .detail-container .content p {
+  font-size: 20px;
+  margin-left: 15px;
+  color: black;
+ }
+ .detail-container .content label {
+   font-size: 30px;
+   color: gray;
+   font-weight: 600;
+   letter-spacing: 1px;
+   margin-left: 15px;
+   margin-top:20px;
+ }
+ .detail-container .content b {
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: black;
+  margin-left: 15px;
+  padding: 20px;
+ }
+  
+ .detail-container .content h2 {
+ font-size: 30px;
+ letter-spacing: 1px;
+ color: gray;
+ font-weight: 600;
+ margin-left: 15px;
+}
+.detail-container .content p {
+  padding: 0px 20px;
+  font-size: 23px;
+}
+

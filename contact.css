@@ -1,0 +1,81 @@
+
+#contact h1 {
+  font-size: 40px;
+ padding-top: 4rem;
+ color:cadetblue;
+ letter-spacing: 3px;
+ margin-bottom: 3rem;
+ text-align: center;
+}
+
+.contact-page {
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.incharge {
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+
+.incharge h2 {
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: black;
+}
+.prof-info {
+ display: flex;
+}
+.prof-img img {
+  width: 10rem;
+  height: 10rem;
+}
+.prof-img {
+  padding: 15px;
+}
+.content {
+  padding: 20px;
+}
+.content b {
+ padding-bottom: 0.8rem;
+ font-size: 20px;
+ color: black;
+ letter-spacing: 1px;
+}
+.content p {
+  font-size: 18px;
+}
+.content h3 {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #607d8b;
+  font-weight: 400;
+}
+.departement {
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+.departement h4 {
+ font-size: 23px;
+ color: black;
+ padding-bottom: 15px;
+ font-weight: 600;
+}
+.departement p {
+  font-size: 18px;
+  padding: 5px 7px;
+  font-weight: 500;
+}
+.departement h3 {
+  padding-top: 10px; 
+  padding-left: 15px;
+  color: #607d8b;
+  font-weight: 400;
+}

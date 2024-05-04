@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;                  
+}
+body {
+  font-family: 'Poppins', sans-serif;
+ }
+
+nav .nav-bar {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+}
+nav .heading h1 {
+ padding-left: 30px;
+ color: white;
+}
+nav .logout-button a {
+ text-decoration: none;
+ margin-right: 30px;
+ font-size: 22px;
+ color: white;
+}
+nav .logout-button a:hover {
+  color: lightblue;
+}
+
+/* dropdown */
+
+.close-button .fa-xmark{
+  position: absolute;
+  left: 12rem;
+  top: 1rem;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.menu-btn .fa-bars {
+  position: relative;
+  top: 1rem;
+  left: 3rem;
+  font-size: 30px;
+  cursor: pointer;
+}
+.menu {
+ display: flex;
+ flex-direction: column;
+ width: 14rem;
+ height: 150vh;
+ padding-top: 40px;
+ position: absolute;
+ top: 4.6rem;
+}
+.items {
+  padding: 20px;
+  align-items: left;
+}
+.items a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+.items a:hover {
+  color: lightblue;
+}
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sub-menu .sub-items {
+  padding: 20px 40px;
+  align-items: left;
+}
+.sub-menu hr {
+  width: 9rem;
+  margin: 5px 0px;
+  margin-left: 1rem;
+  color: white;
+}
+.sub-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.sub-menu{
+  display: none;
+}
